@@ -5,7 +5,7 @@ int main()
     int b;
     int c;
     print("inserisci tre numeri");
-    scamf("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d", &a, &b, &c);
 
     if(a-b==b-c)
     { 
